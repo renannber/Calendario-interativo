@@ -5,10 +5,10 @@ function colorirDia(){
 let days = document.getElementById('day').value ;
 // pega o valor do campo de cor 
 
-let color = documen.getElementById('color').value;
+let color = document.getElementById('color').value;
 
 // pega os elementos da tabela calendário 
-let calendar = documen.getElementById('calendar');
+let calendar = document.getElementById('calendar');
 // let é para criar variavel 
 // verifica se o campo de dia foi preenchido 
 if(!days){
@@ -44,7 +44,7 @@ var corEstilo =  estilo.backgroundColor;
 // verifica  a cor e incrementa contador correspondente
 if(corEstilo === "rgb(173,216,230)" ||  corEstilo === "lightBlue"){
     contadorAzul++;
-    console.log("Azul" + contatorAzul);
+    console.log("Azul" + contadorAzul);
 
 } else if(corEstilo === "rgb(152,215,152)" || corEstilo === "palegreen")
 {cotadorVerde++;
